@@ -50,11 +50,11 @@ p{
     font-family: 'Poppins', sans-serif;
 }
 
-.about-section{
+.content-container{
     padding: 200px 20px;
 }
 
-.about-section-content{
+.content{
     margin: 30px;
 }
 
@@ -78,20 +78,31 @@ p{
     padding: 120px 60px;
 }
 
-.about-section h1{
+.content h1{
     font-size: 64px;
     line-height: 1.2;
 }
 
-.about-section h2{
+.content h3{
+    font-size: 24px;
+    font-family: var(--default-font-family);
+    font-weight: bold;
+    margin: 0;
+}
+
+.content-container h2{
     font-size: 18px;
     font-family: var(--default-font-family);
     font-weight: bold;
     margin: 30px 0;
 }
 
-.my-photo{
+img{
     border-radius: 20px;
+}
+
+.work-paragraph{
+    font-size: 14px;
 }
 
 
@@ -114,12 +125,12 @@ p{
         padding: 80px 20px;
     }
 
-    .about-section{
+    .content-container{
         text-align: center;
         padding: 0;
     }
 
-    .about-section h1{
+    .content-container h1{
         font-size: 46px;
     }
    
