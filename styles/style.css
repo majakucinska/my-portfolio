@@ -9,7 +9,7 @@
 .body-style{
     background-color: var(--secondary-color);
     text-align: center;
-    padding: 200px 20px;
+    padding: 80px 20px;
 }
 
 h1,
@@ -32,7 +32,7 @@ h2{
     font-size: 60px;
 }
 
-h4{
+h3{
     font-size: 48px;
 }
 
@@ -55,7 +55,7 @@ p{
 }
 
 .content-container{
-    padding: 200px 20px;
+    padding: 60px 20px;
 }
 
 .content{
@@ -103,6 +103,10 @@ p{
 
 img{
     border-radius: 20px;
+}
+
+.my-photo{
+    max-width: 90%;
 }
 
 .work-paragraph{
@@ -192,7 +196,7 @@ footer .social-links a:hover{
         font-size: 42px;
     }
 
-    h4{
+    h3{
         font-size: 26px;
     }
    
